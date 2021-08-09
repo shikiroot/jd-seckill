@@ -49,6 +49,7 @@ public class Login {
             }
             Thread.sleep(3000);
         }
+	String qrCodeTicketValidation = HttpUrlConnectionUtil.get(headers, "https://passport.jd.com/uc/qrCodeTicketValidation?t=" + ticket);
         stringListMap = Start.manager.get(url, requestHeaders);
         cookieList = stringListMap.get("Cookie");
         cookies = cookieList.get(0).toString();

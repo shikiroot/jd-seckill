@@ -16,10 +16,12 @@ import java.util.concurrent.TimeUnit;
 public class Start {
 
     final static String headerAgent = "User-Agent";
-    final static String headerAgentArg = "Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/84.0.4147.135 Safari/537.36";
+    // Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/94.0.4606.81 Safari/537.36
+    // Mozilla/5.0 (iPhone; CPU iPhone OS 15_0_1 like Mac OS X) AppleWebKit/605.1.15 (KHTML, like Gecko) Version/15.0 Mobile/15E148 Safari/604.1
+    final static String headerAgentArg = "JD4iPhone/10.1.6 CFNetwork/1312 Darwin/21.0.0";
     final static String Referer = "Referer";
     final static String RefererArg = "https://passport.jd.com/new/login.aspx";
-    //茅台 100012043978 双手柄 100021367452 单手柄 100019378198
+    // 单手柄 100019378198 双手柄 100021367452 茅台 100012043978
     static String pid = new Scanner(System.in).nextLine();
     static String eid = "X";
     static String fp = "X";
